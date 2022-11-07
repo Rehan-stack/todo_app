@@ -5,6 +5,7 @@ from todo.views import*
 
 
 urlpatterns = [
-    path('', todo),
+    path('', todolist),
+
     
 ]
