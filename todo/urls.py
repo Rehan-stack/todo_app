@@ -5,7 +5,12 @@ from todo.views import*
 
 
 urlpatterns = [
-    path('', todolist),
+
+    path('currenttodo', currenttodo,name='currenttodo'),
+    path('signup', signup),
+    path('',home),
+    path('logout',logoutuser,name='logoutuser'),
+    path('login',loginuser,name='login')
 
     
 ]
